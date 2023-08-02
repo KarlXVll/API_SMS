@@ -1,0 +1,56 @@
+/*
+   |--------------------------------------------------------------------------
+   | Application Styles
+   |--------------------------------------------------------------------------
+   |
+   | Here is where you can add your custom application styles.
+   | This file is automatically included in the layout file.
+   |
+*/
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Table */
+.table td, .table th {
+    vertical-align: middle;
+}
+
+/* Form */
+.form-group.required .control-label:after {
+    content:"*";
+    color:red;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}

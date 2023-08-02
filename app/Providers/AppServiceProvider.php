@@ -10,7 +10,9 @@ class AppServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        //
+        $this->app->bind(MyService::class, function ($app) {
+            return new MyService();
+        });
     }
 
     public function boot()
